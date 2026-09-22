@@ -1,8 +1,7 @@
-import Hero from "../components/home/Hero";
-import FeaturedArticles from "../components/home/FeaturedArticles";
-import Categories from "../components/home/Categories";
-import LatestArticles from "../components/home/LatestArticles";
-import NewsletterCTA from "../components/home/NewsletterCTA";
+import Hero from "../components/Home/Hero";
+import FeaturedArticles from "../components/Home/FeaturedArticles";
+import Categories from "../components/Home/Categories";
+import LatestArticles from "../components/Home/LatestArticles";
 
 export default function Home() {
   return (

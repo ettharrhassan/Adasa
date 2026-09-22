@@ -2,6 +2,7 @@ import Hero from "../components/Home/Hero";
 import FeaturedArticles from "../components/Home/FeaturedArticles";
 import Categories from "../components/Home/Categories";
 import LatestArticles from "../components/Home/LatestArticles";
+import NewsletterCTA from "../components/Home/NewsletterCTA";
 
 export default function Home() {
   return (

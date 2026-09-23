@@ -5,8 +5,8 @@ export default function BlogControls({ categories, selectedCategory, onCategoryC
     <div className="sticky top-24 z-40 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-[#1f1f1f] py-4 mb-8 w-full">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-        {/* Search */}
-        <div className="w-full md:w-[350px]">
+       
+        <div className="w-full md:w-87.5">
           <div className="relative w-full">
             <input
               type="text"
@@ -19,7 +19,6 @@ export default function BlogControls({ categories, selectedCategory, onCategoryC
           </div>
         </div>
 
-        {/* Categories */}
         <div className="flex gap-2 flex-wrap justify-center w-full md:w-auto md:justify-end">
           {categories.map((category) => (
             <button

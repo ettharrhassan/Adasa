@@ -7,7 +7,7 @@ export default function ArticleHero({ article }) {
   return (
     <div className="relative w-full overflow-hidden">
       <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${article.image}')` }} />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/80 to-[#0b0b0c]" />
+      <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/80 to-[#0b0b0c]" />
 
       <div className="relative mx-auto max-w-7xl px-6 pt-28 pb-24 text-right">
         <div className="inline-flex items-center justify-start gap-3 text-sm text-white/80 bg-white/10 px-6 py-2.5 rounded-full backdrop-blur-md border border-white/20 shadow-md">

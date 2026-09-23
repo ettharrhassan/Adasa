@@ -32,7 +32,7 @@ export default function RelatedArticles({ related }) {
           <Link
             key={a.id}
             to={`/blog/${a.slug}`}
-            className="group flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] hover:bg-white/[0.06] transition-colors">
+            className="group flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/3 hover:bg-white/6 transition-colors">
             <div className="relative h-48 overflow-hidden">
               <img
                 src={a.image}

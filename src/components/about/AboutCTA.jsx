@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 export default function AboutCTA() {
   return (
     <section className="relative py-24 overflow-hidden" dir="rtl">
-      <div className="absolute inset-0 bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600"></div>
+      <div className="absolute inset-0 bg-linear-to-r from-orange-400 via-orange-500 to-orange-600"></div>
       
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay"></div>
 

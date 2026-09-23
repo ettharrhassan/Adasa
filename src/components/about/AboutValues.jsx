@@ -46,7 +46,7 @@ export default function AboutValues() {
           key={value.id}
           className="group relative flex flex-col items-center text-center p-8 rounded-2xl border border-white/5 bg-[#1A1A1A] overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:border-orange-500/30 hover:shadow-2xl hover:shadow-orange-500/10"
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-orange-500/20 via-orange-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 bg-linear-to-br from-orange-500/20 via-orange-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
           <div className="relative flex h-14 w-14 items-center justify-center rounded-xl bg-orange-500/10 text-orange-500 mb-6 transition-colors duration-300 group-hover:bg-orange-500 group-hover:text-white">
             <FontAwesomeIcon icon={value.icon} className="h-6 w-6" />

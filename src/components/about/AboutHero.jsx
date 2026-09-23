@@ -32,7 +32,7 @@ export default function AboutHero() {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight">
-            مهمتنا هي <span className="text-transparent bg-clip-text bg-gradient-to-l from-orange-400 to-orange-600">الإعلام والإلهام</span>
+            مهمتنا هي <span className="text-transparent bg-clip-text bg-linear-to-l from-orange-400 to-orange-600">الإعلام والإلهام</span>
           </h1>
 
           <p className="text-white/50 text-lg md:text-xl max-w-3xl mb-16 leading-relaxed">
